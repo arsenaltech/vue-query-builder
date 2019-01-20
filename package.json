@@ -20,7 +20,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/tailwindcss-vue-query-builder/-/tailwindcss-vue-query-builder-0.7.7.tgz",
   "_shasum": "26172bbc5c66cee22d7d0e065755310d367c8582",
-  "_spec": "tailwindcss-vue-query-builder@^0.7.7",
+  "_spec": "vue-query-builder@^0.7.7",
   "_where": "/Users/shabbir/Sites/olson-nova/nova-components/Olson",
   "browserslist": [
     "> 1%",
@@ -58,7 +58,7 @@
     "README.md"
   ],
   "main": "./dist/VueQueryBuilder.common.js",
-  "name": "tailwindcss-vue-query-builder",
+  "name": "vue-query-builder",
   "scripts": {
     "build": "vue-cli-service build --target lib --name VueQueryBuilder src/VueQueryBuilder.vue",
     "docs:build": "vuepress build docs",
