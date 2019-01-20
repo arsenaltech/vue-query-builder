@@ -1,16 +1,16 @@
 {
-  "_from": "tailwindcss-vue-query-builder@^0.7.7",
-  "_id": "tailwindcss-vue-query-builder@0.7.7",
+  "_from": "vue-query-builder",
+  "_id": "vue-query-builder",
   "_inBundle": false,
   "_integrity": "sha512-TOKza20xReONO2gKOALMjiwoNKJZlAt+dqEjOUi6P2eehZh447kLJ5eDCaDSwBR2fVW9Pvaqm05n7LGpf4De4w==",
-  "_location": "/tailwindcss-vue-query-builder",
+  "_location": "/vue-query-builder",
   "_phantomChildren": {},
   "_requested": {
     "type": "range",
     "registry": true,
-    "raw": "tailwindcss-vue-query-builder@^0.7.7",
-    "name": "tailwindcss-vue-query-builder",
-    "escapedName": "tailwindcss-vue-query-builder",
+    "raw": "vue-query-builder@^0.7.7",
+    "name": "vue-query-builder",
+    "escapedName": "vue-query-builder",
     "rawSpec": "^0.7.7",
     "saveSpec": null,
     "fetchSpec": "^0.7.7"
