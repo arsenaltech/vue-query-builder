@@ -17,7 +17,7 @@
       <div class="py-2">
         <div >
           <select v-model="selectedRule" class="bg-grey-lighter rounded transition h-6 pr-4">
-            <optgroup label=""></optgroup>
+            <optgroup label="Fields"></optgroup>
             <option v-for="(rule, index) in rules" :key="index" :value="rule">{{ rule.label }}</option>
           </select>
           <button type="button" @click="addRule" class="bg-primary rounded transition text-white py-1 px-4 mx-2" v-html="labels.addRule"></button>
