@@ -17,7 +17,7 @@
       <input class="bg-grey-lighter rounded appearance-none my-1 py-1 px-4" v-if="rule.inputType === 'number'" type="number" v-model="query.value">
 
       <template v-if="isCustomComponent">
-        <component :value="query.value" @input="updateQuery" :is="rule.component"></component>
+        <component :value="query.value" @input="updateQuery" :is="rule.component" :options="rule.options"></component>
       </template>
 
       <div class="checkbox" v-if="rule.inputType === 'checkbox'">
