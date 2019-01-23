@@ -3,7 +3,7 @@
     <div class="vqb-group-heading">
       <div class="match-type-container mb-2">
         <div>
-          <label for="vqb-match-type" class="text-lg font-normal pr-2">{{ labels.matchType }}</label>
+          <label for="vqb-match-type" class="pr-2">{{ labels.matchType }}</label>
           <select id="vqb-match-type" class="bg-grey-lighter rounded transition h-6 px-4 mx-2" v-model="query.logicalOperator">
             <option>{{ labels.matchTypeAll }}</option>
             <option>{{ labels.matchTypeAny }}</option>
