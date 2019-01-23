@@ -9,7 +9,7 @@
             <option>{{ labels.matchTypeAny }}</option>
           </select>
         </div>
-        <button type="button" class="text-lg" v-if="this.depth > 1" @click="remove" v-html="labels.removeGroup">X</button>
+        <button type="button" class="ml-auto" v-if="this.depth > 1" @click="remove" v-html="labels.removeGroup">X</button>
       </div>
     </div>
 
