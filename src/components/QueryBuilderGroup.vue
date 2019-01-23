@@ -13,7 +13,7 @@
       </div>
     </div>
 
-    <div class="vqb-group-body">
+    <div class="p-3">
       <div class="py-2">
         <div >
           <select v-model="selectedRule" class="bg-grey-lighter rounded transition h-6 pr-4">
