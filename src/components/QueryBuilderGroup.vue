@@ -1,7 +1,7 @@
 <template>
   <div class="vqb-group font-secondary">
     <div class="vqb-group-heading">
-      <div class="match-type-container mb-2">
+      <div class="flex bg-50 p-3">
         <div>
           <label for="vqb-match-type" class="pr-2">{{ labels.matchType }}</label>
           <select id="vqb-match-type" class="bg-grey-lighter rounded transition h-6 px-4 mx-2" v-model="query.logicalOperator">
