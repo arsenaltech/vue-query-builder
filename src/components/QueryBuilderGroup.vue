@@ -1,5 +1,5 @@
 <template>
-  <div class="vqb-group font-secondary">
+  <div class="vqb-group bg-white mb-3 rounded-lg overflow-hidden border border-50">
     <div class="vqb-group-heading">
       <div class="flex bg-50 p-3">
         <div>
