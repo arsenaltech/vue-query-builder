@@ -1,7 +1,7 @@
 <template>
   <div class="vqb-rule font-secondary">
     <div class="flex flex-wrap content-around items-center py-1">
-      <label class="text-lg font-normal pr-4">{{ rule.label }}</label>
+      <label class="pr-4">{{ rule.label }}</label>
 
       <select v-if="typeof rule.operands !== 'undefined'" v-model="query.selectedOperand" class="bg-grey-lighter rounded transition h-6 px-4 mx-2">
         <option v-for="(operand, index) in rule.operands" :key="index">{{ operand }}</option>
